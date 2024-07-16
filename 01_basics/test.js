@@ -1,1 +1,3 @@
-console.log("prabhat")
+var hllo;
+
+console.table([hllo]);
