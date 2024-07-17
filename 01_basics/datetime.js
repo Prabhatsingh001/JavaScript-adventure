@@ -8,3 +8,7 @@ console.log(`hi ${mydate}`);
 // shallow copies:- properties share same reference
 // deep copy :- do not share same reference
 
+const newarr = ["hello", "hi", "raghav"]
+
+const all = [...newarr]
+console.log(all);
