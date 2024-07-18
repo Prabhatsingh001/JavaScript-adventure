@@ -1,17 +1,35 @@
-function myname(){
-    console.log("hello");
-}
+// const coding = ["js", "ruby", "python"]
 
-// myname()
+// const values = coding.forEach((item)=>{
+//     console.log(item);
+//     return item
+// })
 
-function addTwonum(num1, num2){
-    console.log(num1+num2);
-}
+// console.log(values) 
 
-addTwonum(1,2);
-addTwonum();
+// for each doesnt return any value
 
-function handlobject(anybject){
-    
-}
+const mynum = [1,2,3,4,5,6,7,8,9]
 
+// const newsnums = mynum.filter((num)=>{
+//     return num>4
+// })
+
+// console.log(newsnums);
+
+const newnum = []
+mynum.forEach((num)=>{
+    if(num>4){
+        newnum.push(num)
+    }
+})
+
+const num = [1,2,3]
+
+const sum = num.reduce(function(acc,cur_val){
+    return acc+cur_val;
+},0)
+
+console.log(
+    sum
+);
